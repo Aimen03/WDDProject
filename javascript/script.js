@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const contactForm = document.getElementById("contactForm"); // Get the contact form element by ID
     if (contactForm) { // Check if the form exists in the DOM
         contactForm.addEventListener("submit", function (e) {
-            e.preventDefault(); // Prevent the form from submitting the traditional way
+            e.preventDefault(); // Prevent the form from submitting the normal way
 
             // Retrieve form field values and trim any excess whitespace
             const name = document.getElementById("name").value.trim();
